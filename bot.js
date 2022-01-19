@@ -13,9 +13,9 @@ function respond() {
   name5 = /^\LDP #$/;
   name6 = /^\Flip #$/;
   name7 = /^\Roll #$/;
-  name8 = /^\Iverson #$/;
+  name8 = /^\Dean #$/;
   name9 = /^\Gray #$/;
-  name10 = /^\Krysinksi #$/;
+  name10 = /^\Clayton #$/;
   name11 = /^\Ach #$/;
   name12 = /^\Moniot #$/;
   name13 = /^\Stackhouse #$/;
@@ -133,11 +133,11 @@ function postMessage(num) {
   else if(num == 7)
     botResponse = String(Math.floor(Math.random() * 6) + 1);
   else if(num == 8)
-    botResponse = 'Iverson: 7753158902';
+    botResponse = 'Dean: \n 916-276-3815 \n zpdean08@gmail.com';
   else if(num == 9)
-    botResponse = 'Gray: 7757209151';
+    botResponse = 'Gray: \n 775-720-9151 \n hannah.gray1200@gmail.com';
   else if(num == 10)
-    botResponse = 'Krysinksi: 7755153029';
+    botResponse = 'Clayton: \n 808-482-9181 \n lclayton@nevada.unr.edu';
   else if(num == 11)
     botResponse = 'Mrs. Beach: \n 775-682-7473 \n lharris@unr.edu';
   else if(num == 12)
